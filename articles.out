@@ -1,0 +1,10 @@
+Artikelnummer;Beschreibung;Volt / Watt;Verbrauch;Sicherung;selbstansaugend bis m;Kapazität;Schlauch-Ø mm;Druck;Schlauchanschluss;Gewicht;
+17353013;Dieselpumpe UP2;12 / 90;3A;5A;1,5;10 l/min;12;1,5 bar;3/8";1,2kg;
+17353014;Dieselpumpe UP2;24 / 90;1,5A;3A;1,5;10 l/min;12;1,5 bar;3/8";1,2kg;
+17353015;Dieselpumpe UP3;12 / 120;6A;10A;1,5;15 l/min;13;2 bar;3/8";1,4kg;
+17353016;Dieselpumpe UP3;24 / 120;3A;5A;1,5;15 l/min;13;2 bar;3/8";1,4kg;
+
+Volt/Watt:12/90|Verbrauch:3A|Sicherung:5A|selbstansaugend bis m:1,5|Kapazität:10l/min;Schlauch-Ø mm:12|Druck:1,5 bar|Schlauchanschluss:3/8"|Gewicht:1,2kg
+Volt/Watt:24/90|Verbrauch:1,5A|Sicherung:3A|selbstansaugend bis m:1,5|Kapazität:10l/min;Schlauch-Ø mm:12|Druck:1,5 bar|Schlauchanschluss:3/8"|Gewicht:1,2kg
+Volt/Watt:12/120|Verbrauch:6A|Sicherung:10A|selbstansaugend bis m:1,5|Kapazität:15 l/min;Schlauch-Ø mm:12|Druck:2 bar|Schlauchanschluss:3/8"|Gewicht:1,4kg
+Volt/Watt:24/120|Verbrauch:3A|Sicherung:5A|selbstansaugend bis m:1,5|Kapazität:15 l/min;Schlauch-Ø mm:12|Druck:2 bar|Schlauchanschluss:3/8"|Gewicht:1,4kg
