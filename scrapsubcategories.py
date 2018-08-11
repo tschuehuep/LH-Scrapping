@@ -3,6 +3,7 @@
 
 from scrapcategories import parse_categories
 from scrapdescription import parse_description
+from scraparticles import parse_articles
 import requests
 from lxml import etree
 from requests import Response
@@ -30,9 +31,13 @@ def parse_subcategories(mainCategory, domain):
         theOutput.write("<got to the end>\n")
         theOutput.write("<" + mainCategory['text']  +"> with the href: " + mainCategory['link'] + "\n")
         parse_description("https://" + domain + mainCategory['link'])
+        parse_articles("https://" + domain + mainCategory['link'])
     theOutput.close()
     return []
 
+theOutput = open('articles.out', 'w')
+theOutput.write('Another try\n')
+theOutput.close()
 theOutput = open('description.out', 'w')
 theOutput.write('Another try\n')
 theOutput.close()
