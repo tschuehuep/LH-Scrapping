@@ -5,7 +5,8 @@ import requests
 from lxml import etree
 from requests import Response
 
-def parse_description(fullUrl):
+def parse_description(fullUrl, categoryId):
+    completeDescription = ""
     myparser = etree.HTMLParser(encoding="utf-8")
     item = requests.get(
         fullUrl)  # type: Response
@@ -16,8 +17,10 @@ def parse_description(fullUrl):
     # print descriptions
     theOutput = open('description.out', 'a')
     if descriptions:
-        theOutput.write(fullUrl + "\nDescription:\n")
+        theOutput.write(fullUrl + "\nDescription for "+categoryId+"\n")
         for description in descriptions:
             #    sDesc = description.decode('UTF-8')
             #    theOutput.write(sDesc)
-            theOutput.write(description.strip() + "<br>")
+            completeDescription = completeDescription + description.strip() + "<br>"
+        theOutput.write(completeDescription)
+    return completeDescription
