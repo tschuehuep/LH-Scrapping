@@ -17,7 +17,7 @@ def parse_description(fullUrl, categoryId):
     # print descriptions
     theOutput = open('description.out', 'a')
     if descriptions:
-        theOutput.write(fullUrl + "\nDescription for "+categoryId+"\n")
+        theOutput.write(fullUrl + "\nDescription for "+str(categoryId)+"\n")
         for description in descriptions:
             #    sDesc = description.decode('UTF-8')
             #    theOutput.write(sDesc)
